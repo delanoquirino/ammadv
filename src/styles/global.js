@@ -26,5 +26,13 @@ export default createGlobalStyle`
         color: var(--link-color)
     }
     
+    h1, h2, h3,h4{
+       font-family: 'Cinzel', serif;
+   }
+
+   p {
+    font-family: 'Roboto', sans-serif
+   }
+   
    
 `;

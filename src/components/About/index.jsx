@@ -14,11 +14,11 @@ export const About = () => {
                     src={bussiness}
                     height="auto"
                     width={500}
-                    alt="logo"
+                    alt="bussiness"
                 />
                 <S.Content>
-                    <h2>Amorin, Madeira & Moura</h2>
-                    <p>Amorin, Madeira & Moura é um escritório que surgiu a partir do ideal de alguns profissionais jovens, que acreditavam no trabalho como o responsável pelo desenvolvimento social e buscavam promover a existência das relações justas.
+                    <h2>Amorim, Moura & Martins</h2>
+                    <p>Amorim, Moura & Martins é um escritório que surgiu a partir do ideal de alguns profissionais jovens, que acreditavam no trabalho como o responsável pelo desenvolvimento social e buscavam promover a existência das relações justas.
                     </p>
                     <p><span>Endereço:</span> Av. Mal. Mascarenhas de Moraes, 1927 - Bento Ferreira, Vitória - ES, 29050-945</p>
                     <p><span>Atendimento:</span> Atendimento de segunda à sexta de 08:00 ás 18:00. Aos sábados de 08:00 às 12:00</p>

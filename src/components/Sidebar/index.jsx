@@ -15,7 +15,7 @@ export const Sidebar = ({ active }) => {
       <AiOutlineMenuUnfold onClick={closeSidebar} />
       <S.Content>
         <Link href="#about">Sobre</Link>
-        <Link href="/">Áreas de Atuação</Link>
+        <Link href="#services">Áreas de Atuação</Link>
         <Link href="/">Equipe</Link>
         <Link href="/">Contato</Link>
       </S.Content>

@@ -4,19 +4,48 @@ export const Container = styled.div`
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
-    
+  
     
 `
 export const AboutContainer = styled.div`
     display: flex;
-    margin-top: 4rem;
+    margin: 4rem 0;
     gap: 2rem;
+    align-items: flex-start;
+
+
+    @media (max-width: 1080px)
+    {
+        img {
+            width: 400px;
+
+        }
+        
+    }
+    
+    
+    @media (max-width: 900px)
+    {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+
+        }
+      
+    }
+
+ 
     
 `
 export const Content = styled.div`
    display: flex;
    flex-direction: column;
+   
+   
    gap: 1rem;
+ 
 
    h2 {
     font-size: 34px;
@@ -31,6 +60,9 @@ export const Content = styled.div`
    span {
     font-weight: 700;
    }
+
+
+
     
 `
 
