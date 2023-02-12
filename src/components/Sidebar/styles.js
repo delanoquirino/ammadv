@@ -10,6 +10,12 @@ export const Container = styled.div`
   right: ${props => props.sidebar ? '0' : '-100%'};
   animation: showSidebar .4s;
   
+   
+  @media (max-width: 800px)
+    {
+      width: 100%
+    }
+
   > svg {
     position: fixed;
     color: white;
@@ -27,9 +33,11 @@ export const Container = styled.div`
     }
     to {
       opacity: 1;
-      width: 300px;
     }
+
+     
   }
+
 `;
 
 export const Content = styled.div`
