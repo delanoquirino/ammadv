@@ -19,6 +19,7 @@ export const Content = styled.div`
     display: flex;
     margin-top: 2rem;
     gap: 1rem;
+    justify-content: center;
 
     @media (max-width: 900px)
     {
@@ -38,10 +39,11 @@ export const Card = styled.div`
     justify-content: flex-start;
     gap: 2rem;
     height: 400px;
-    width: 400px;
+    width: 500px;
     padding: 1.5rem 2rem;
     color: white;
     text-align: center;
+    
     &:hover {
         background-color: #424242;
     }

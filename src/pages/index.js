@@ -1,7 +1,9 @@
 
 import { About } from '@/components/About'
-import { Contact } from '@/components/Contact'
+
+import { Footer } from '@/components/Footer/styles'
 import { Header } from '@/components/Header'
+import { Localization } from '@/components/Localization'
 import { Services } from '@/components/Services'
 import { Team } from '@/components/Team'
 import { Inter } from '@next/font/google'
@@ -16,7 +18,9 @@ export default function Home() {
       <About/>
       <Services/>
       <Team/>
-      <Contact/>
+      <Localization/>
+      <Footer />
+      
     </>
   )
 }
