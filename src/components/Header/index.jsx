@@ -23,8 +23,8 @@ export const Header = () => {
                     <S.Logo>
                         <Image
                             src={logo}
-                            height={50}
-                            width={50}
+                            height={80}
+                            width={80}
                             alt="logo"
                         />
                     </S.Logo>

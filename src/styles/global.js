@@ -30,8 +30,21 @@ export default createGlobalStyle`
        font-family: 'Cinzel', serif;
    }
 
+   h1 {
+    font-size: 48px;
+   }
+
+   h2 {
+    font-size: 32px;
+   }
+
+   h3{
+    font-size: 26px;
+   }
+
    p {
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
    }
    
    

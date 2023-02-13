@@ -1,7 +1,9 @@
 
 import { About } from '@/components/About'
+import { Contact } from '@/components/Contact'
 import { Header } from '@/components/Header'
 import { Services } from '@/components/Services'
+import { Team } from '@/components/Team'
 import { Inter } from '@next/font/google'
 
 
@@ -13,6 +15,8 @@ export default function Home() {
       <Header/>
       <About/>
       <Services/>
+      <Team/>
+      <Contact/>
     </>
   )
 }

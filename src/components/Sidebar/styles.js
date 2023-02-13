@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: 100%;
   top: 0px;
   right: 0px;
-  width: 300px;
+  width: 28%;
   right: ${props => props.sidebar ? '0' : '-100%'};
   animation: showSidebar .4s;
   
@@ -19,8 +19,8 @@ export const Container = styled.div`
   > svg {
     position: fixed;
     color: white;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     margin-top: 32px;
     margin-left: 32px;
     cursor: pointer;
@@ -46,7 +46,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-
+  
     a {
       font-size: 20px;
       padding: 1rem;

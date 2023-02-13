@@ -9,14 +9,12 @@ export const Header = styled.div`
   background-position: center;
   height: 400px;
   box-shadow: 0 0 20px 3px;
- 
   
-    
 
 `
 
 export const HeaderContainer = styled.div`
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     height: 400px;
     padding: 1rem;
@@ -31,7 +29,6 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: space-between;
-
 `
 export const Logo = styled.div`
     
@@ -41,8 +38,8 @@ export const  NavBar  = styled.div`
    
     svg {
         color: white;
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         cursor: pointer;
     }
 
