@@ -17,7 +17,7 @@ export const Sidebar = ({ active }) => {
         <Link href="#about">Sobre</Link>
         <Link href="#services">Áreas de Atuação</Link>
         <Link href="#team">Equipe</Link>
-        <Link href="/">Contato</Link>
+        <Link href="#contact">Contato</Link>
       </S.Content>
       <S.Contact>
         <span>(33) 3333-3331</span>

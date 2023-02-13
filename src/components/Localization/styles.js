@@ -12,6 +12,8 @@ export const LocazationContainer = styled.div`
 `
 
 export const Title = styled.div`
-  text-align: center;
-    padding: 2rem;
+    text-align: center;
+    padding: 2rem .4rem;
+
+   
 `

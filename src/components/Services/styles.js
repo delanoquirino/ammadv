@@ -38,8 +38,8 @@ export const Card = styled.div`
     align-items: center;
     justify-content: flex-start;
     gap: 2rem;
-    height: 400px;
-    width: 500px;
+    height: auto;
+    width:100%;
     padding: 1.5rem 2rem;
     color: white;
     text-align: center;

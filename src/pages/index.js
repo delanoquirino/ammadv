@@ -1,7 +1,7 @@
 
 import { About } from '@/components/About'
 
-import { Footer } from '@/components/Footer/styles'
+import { Contact } from '@/components/Contact'
 import { Header } from '@/components/Header'
 import { Localization } from '@/components/Localization'
 import { Services } from '@/components/Services'
@@ -19,7 +19,7 @@ export default function Home() {
       <Services/>
       <Team/>
       <Localization/>
-      <Footer />
+      <Contact />
       
     </>
   )

@@ -47,5 +47,15 @@ export default createGlobalStyle`
     font-size: 17px;
    }
    
+   @media (max-width: 900px)
+    {
+        h1 {
+
+            font-size: 30px;
+
+        }
+
+           
+    }
    
 `;
