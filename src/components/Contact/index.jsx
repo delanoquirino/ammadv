@@ -18,19 +18,19 @@ export const Contact = () => {
                     <S.Icons>
                         <S.IconsContainer>
                             <GoLocation />
-                            <p>Rua ou Avenida, endereço completo
+                            <p>Teresina/PI: Rua Ribamar Pacheco, n° 2469, bairro de Fátima
 
                             </p>
                         </S.IconsContainer>
                         <S.IconsContainer>
                             <FaWhatsapp />
                             <p>
-                                (xx) 12345-6789
+                                (86) 3305-6632
                             </p>
                         </S.IconsContainer>
                         <S.IconsContainer>
                             <AiOutlineMail />
-                            <p>email@dominio.com.br</p>
+                            <p>amm.advogados@hotmail.com</p>
                         </S.IconsContainer>
                     </S.Icons>
 

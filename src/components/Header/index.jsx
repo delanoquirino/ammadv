@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import * as S from './styles'
-import logo from '/public/logo.png'
+import logo from '/public/images/logo.png'
 import { useState } from 'react';
 import { AiOutlineMenuFold } from 'react-icons/ai';
 import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
@@ -23,8 +23,7 @@ export const Header = () => {
                     <S.Logo>
                         <Image
                             src={logo}
-                            height={80}
-                            width={80}
+                            width={"auto"}
                             alt="logo"
                         />
                     </S.Logo>

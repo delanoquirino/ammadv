@@ -20,9 +20,9 @@ export const Sidebar = ({ active }) => {
         <Link href="#contact">Contato</Link>
       </S.Content>
       <S.Contact>
-        <span>(33) 3333-3331</span>
+        <span>(86) 3305-6632</span>
         <S.Address>
-          Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200
+          Teresina/PI: Rua Ribamar Pacheco, n° 2469, bairro de Fátima
         </S.Address>
       </S.Contact>
     </S.Container>
