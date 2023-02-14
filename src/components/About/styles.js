@@ -12,12 +12,12 @@ export const AboutContainer = styled.div`
     margin: 4rem 0;
     gap: 2rem;
     align-items: flex-start;
-   
+
     
     img {
          
        height: auto;
-       width: 600px;
+       width: 800px;
     }
 
     @media (max-width: 1200px)
@@ -25,6 +25,8 @@ export const AboutContainer = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
+
+      
     }
 
 

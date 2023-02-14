@@ -6,6 +6,7 @@ export const Team = styled.div`
   background-image: url(/images/banner-predios.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+ 
   
  
 `

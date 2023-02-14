@@ -8,7 +8,9 @@ export const Services = styled.div`
 export const Container = styled.div`
     max-width: 1500px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 4rem;
+
+    
 `
 export const Title = styled.div`
   text-align: center;
