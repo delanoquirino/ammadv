@@ -9,8 +9,8 @@ import avatar3 from '/public/images/avatar3.png'
 
 export const Team = () => {
   return (
-    <S.Team>
-      <S.Container id='team'>
+    <S.Team id='team'>
+      <S.Container >
         <S.Title>
           <h1>Equipe</h1>
         </S.Title>

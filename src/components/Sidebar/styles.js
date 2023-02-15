@@ -19,7 +19,7 @@ export const Container = styled.div`
 
   > svg {
     position: fixed;
-    color: #fff;
+    color: 	#D3D3D3;
     width: 50px;
     height: 50px;
     margin-top: 32px;

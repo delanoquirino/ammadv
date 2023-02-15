@@ -20,6 +20,19 @@ export const Title = styled.div`
   text-align: center;
   color: var(--text-color);
   margin-top: 4rem;
+
+  
+  @media (max-width: 1080px)
+    {
+      h1 {
+        background-color: #FFFFFF;
+        display: inline;
+        padding: 0 1rem;
+        border-radius: 0.625rem;
+
+      }
+      
+    }
  
 `
 export const Content = styled.div`

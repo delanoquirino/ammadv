@@ -21,10 +21,11 @@ export const Title = styled.div`
 export const Content = styled.div`
     display: grid;
     grid-gap: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     justify-content: center;
     justify-items: center;
     padding: 30px;
+
     
     @media (max-width: 1080px)
     {
@@ -37,24 +38,26 @@ export const Content = styled.div`
 `
 
 export const Card = styled.div`
+    
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    justify-content: center;
+    gap: 10px;
+    justify-content: flex-start;
     justify-items: center;
-    padding: 30px;
+    padding: 20px;
     color: white;
     text-align: center;
+
+    p {
+        margin-top: 0.625rem;
+        font-size: 1.25rem;
+    }
 
     @media (max-width: 1080px)
     {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        
-
-     
-      
+              
     }
     
     &:hover {
@@ -62,8 +65,8 @@ export const Card = styled.div`
     }
 
     svg {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
     }
     
 

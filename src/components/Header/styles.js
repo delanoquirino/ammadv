@@ -4,7 +4,13 @@ export const Header = styled.div`
   height: 120px;
   background-color: #fff;
   box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 20%);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
+  z-index: 1;
  
 `
 
@@ -21,6 +27,7 @@ export const Navi = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 `
 export const Logo = styled.div`
   
@@ -58,14 +65,42 @@ export const NavBar = styled.div`
 
 export const Content = styled.div`
     display: flex;
-    gap: 1rem;
+  
   a {
-    font-size: 24px;
+    display: block;
+    padding: 2rem;
+    position: relative;
+
+    font-size: 1.25rem;
     font-family: Cinzel, sans-serif;
     color: black;
     padding: 0.5rem;
+    
+    &::after {
+    content: '';
+    position: absolute;
+    bottom: 0.1rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background: 	#D3D3D3;
+    transition: all 300ms ease-in-out;
+    }
+    
+   &:hover::after {
+      width: 80%;
+      left: 10%;
+      
+    }
+  
   }
+ 
+    
 
+   
+
+
+ 
   @media (max-width: 1080px)
     {
       display: none;

@@ -12,11 +12,12 @@ export const About = () => {
             <S.AboutContainer>
                 <Image
                     src={bussiness}
+                    height={600}
                     width={600}
                     alt="bussiness"
                 />
                 <S.Content>
-                    <h2>Amorim, Moura & Martins</h2>
+                    <h1>Amorim, Moura & Martins</h1>
                     <p>Amorim, Moura & Martins é um escritório que surgiu a partir do ideal de alguns profissionais jovens, que acreditavam no trabalho como o responsável pelo desenvolvimento social e buscavam promover a existência das relações justas.
                     </p>
                     <p><span>Endereço:</span> Teresina/PI: Rua Ribamar Pacheco, n° 2469, bairro de Fátima</p>

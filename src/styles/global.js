@@ -21,7 +21,7 @@ export default createGlobalStyle`
         h1
         {
 
-            font-size: 32px;
+            font-size: 2rem;
         } 
       }
     }
@@ -44,23 +44,24 @@ export default createGlobalStyle`
     
     h1, h2, h3,h4{
        font-family: 'Cinzel', serif;
+       
    }
 
    h1 {
-    font-size: 48px;
+    font-size: 2.375rem;
    }
 
    h2 {
-    font-size: 32px;
+    font-size: 2rem;
    }
 
    h3{
-    font-size: 26px;
+    font-size: 1.625rem;
    }
 
    p {
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: 1.0625rem;
    }
    
   

@@ -14,10 +14,10 @@ export const Sidebar = ({ active }) => {
     <S.Container sidebar={active}>
       <AiOutlineMenuUnfold onClick={closeSidebar} />
       <S.Content>
-        <Link href="#about">Sobre</Link>
-        <Link href="#services">Áreas de Atuação</Link>
-        <Link href="#team">Equipe</Link>
-        <Link href="#contact">Contato</Link>
+        <Link href="#about" onClick={closeSidebar}>Sobre</Link>
+        <Link href="#services" onClick={closeSidebar}>Áreas de Atuação</Link>
+        <Link href="#team" onClick={closeSidebar}>Equipe</Link>
+        <Link href="#contact" onClick={closeSidebar}>Contato</Link>
       </S.Content>
       <S.Contact>
         <span>(86) 3305-6632</span>
