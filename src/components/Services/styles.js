@@ -21,10 +21,11 @@ export const Title = styled.div`
 export const Content = styled.div`
     display: grid;
     grid-gap: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     justify-content: center;
     justify-items: center;
     padding: 30px;
+    margin-top: 5rem;
 
     
     @media (max-width: 1080px)
