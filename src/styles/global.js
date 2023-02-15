@@ -6,8 +6,24 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-     
+      }
+
       
+    @media(max-width: 1080px){
+      html{
+        font-size: 93.75%;
+      }
+    }
+    @media(max-width: 720px){
+      html{
+        font-size: 77.5%;
+
+        h1
+        {
+
+            font-size: 32px;
+        } 
+      }
     }
 //font-family: 'Cinzel', serif;
 //font-family: 'Roboto', sans-serif
@@ -47,15 +63,5 @@ export default createGlobalStyle`
     font-size: 17px;
    }
    
-   @media (max-width: 900px)
-    {
-        h1 {
-
-            font-size: 30px;
-
-        }
-
-           
-    }
-   
+  
 `;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     background-color: #202020;
     padding-bottom: 3rem;
+   
 `
 
 
@@ -13,7 +14,7 @@ export const ContactContainer = styled.div`
     padding: 1rem;
     padding-top: 5rem;
 
-    @media (max-width: 900px)
+    @media (max-width: 1080px)
     {
       flex-direction: column;
       gap: 5rem;
@@ -33,7 +34,7 @@ color: var(--link-color);
         
     }
 
-    @media (max-width: 900px)
+    @media (max-width: 1080px)
     {
        
        text-align: center;
@@ -45,6 +46,7 @@ export const Form = styled.form`
  display: flex;
  flex-direction: column;
  width: 100%;
+ text-align: center;
 
     h1 {
         color: var(--link-color);

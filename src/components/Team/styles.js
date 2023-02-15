@@ -2,13 +2,10 @@ import styled from "styled-components";
 
 export const Team = styled.div`
   
-  display: block;
   background-image: url(/images/banner-predios.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
- 
-  
- 
+  min-height: 100vh;
 `
 
 
@@ -31,7 +28,7 @@ export const Content = styled.div`
     margin-top: 2rem;
     gap: 1rem;
 
-    @media (max-width: 900px)
+    @media (max-width: 1080px)
     {
         display: flex;
         flex-direction: column;
@@ -49,7 +46,7 @@ export const Card = styled.div`
     height: 500px;
     width: 400px;
     color: var(--text-color);
-    @media (max-width: 900px)
+    @media (max-width: 1080px)
     {
       width: 100%;
         

@@ -2,11 +2,12 @@
 
 import Image from 'next/image'
 import * as S from './styles'
-import logo from '/public/logo.png'
+import logo from '/public/images/logoamm.png'
 import { useState } from 'react';
 import { AiOutlineMenuFold } from 'react-icons/ai';
 import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
 import { Sidebar } from '../Sidebar';
+import Link from 'next/link';
 
 
 
@@ -23,26 +24,22 @@ export const Header = () => {
                     <S.Logo>
                         <Image
                             src={logo}
-                            width={80}
+                            width={250}
                             alt="logo"
                         />
                     </S.Logo>
+
                     <S.NavBar>
                         <AiOutlineMenuFold onClick={showSidebar} />
                         {sidebar && <Sidebar active={setSidebar} />}
                     </S.NavBar>
+                    <S.Content>
+                        <Link href="#about">Sobre</Link>
+                        <Link href="#services">Áreas de Atuação</Link>
+                        <Link href="#team">Equipe</Link>
+                        <Link href="#contact">Contato</Link>
+                    </S.Content>
                 </S.Navi>
-                <S.MidiaSocial>
-                    <span>
-                        Compartilhe:
-                    </span>
-                    <S.Icons>
-                        <FaWhatsapp />
-                        <FaInstagram />
-                        <FaFacebook />
-                    </S.Icons>
-
-                </S.MidiaSocial>
             </S.HeaderContainer>
         </S.Header>
     )

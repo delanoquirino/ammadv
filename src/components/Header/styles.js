@@ -1,73 +1,75 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
-  
-  display: block;
-  background: url(/images/Fundotopo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
-  box-shadow: 0 0 20px 3px;
-  
-
+  height: 120px;
+  background-color: #fff;
+  box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 20%);
+  width: 100%;
+ 
 `
 
 export const HeaderContainer = styled.div`
+    height: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    height: 400px;
-    padding: 1rem;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 3rem;
-    
+    padding-left: 1rem;
+   
 `
 export const Navi = styled.div`
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 `
 export const Logo = styled.div`
-    
+  
+  @media (max-width: 1080px)
+    {
+      img {
+
+        width:90%;
+      }
+    }
+  
 `
 
-export const  NavBar  = styled.div`
+export const NavBar = styled.div`
    
     svg {
-        color: white;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
+      display: none;
+      
+    }
+
+   @media (max-width: 1080px)
+    {
+      
+      svg {
+        display: block;
+          color: black;
+          width: 40px;
+          height: 40px;
+          cursor: pointer;
+          margin-right: 4rem;
+      }
     }
 
 `
 
-
-
-export const MidiaSocial = styled.div`
-font-size: 20px;
-font-family: 'Cinzel', serif;
-color: var(--link-color);
-
-
-`
-
-export const Icons = styled.div`
-  width: 100px;
-  display: flex;
-  gap: 1rem;
-  svg {
-    color: grey;
-    transition: 0.3s;
-    cursor: pointer;
+export const Content = styled.div`
+    display: flex;
+    gap: 1rem;
+  a {
+    font-size: 24px;
+    font-family: Cinzel, sans-serif;
+    color: black;
+    padding: 0.5rem;
   }
 
-  svg:hover {
-    color: #FFF;
-  }
+  @media (max-width: 1080px)
+    {
+      display: none;
+     
+    }
 
- 
 `

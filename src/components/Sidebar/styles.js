@@ -10,6 +10,7 @@ export const Container = styled.div`
   right: ${props => props.sidebar ? '0' : '-100%'};
   animation: showSidebar .4s;
   
+  
    
   @media (max-width: 800px)
     {
@@ -18,7 +19,7 @@ export const Container = styled.div`
 
   > svg {
     position: fixed;
-    color: white;
+    color: #fff;
     width: 50px;
     height: 50px;
     margin-top: 32px;
@@ -74,5 +75,6 @@ export const Contact = styled.div`
 `
 export const Address = styled.div`
   text-align: center;
+  padding: 1rem;
   
 `

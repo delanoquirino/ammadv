@@ -1,17 +1,20 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    height: calc(100% - 120px);
     max-width: 1500px;
     margin: 0 auto;
     padding: 1rem;
-  
+    display: flex;
+    align-items: center;
     
 `
 export const AboutContainer = styled.div`
+    
     display: flex;
-    margin: 4rem 0;
     gap: 2rem;
     align-items: flex-start;
+    padding: 30px;
 
     
     img {
@@ -20,7 +23,7 @@ export const AboutContainer = styled.div`
        width: 800px;
     }
 
-    @media (max-width: 1200px)
+    @media (max-width: 1080px)
     {
         display: flex;
         flex-direction: column;

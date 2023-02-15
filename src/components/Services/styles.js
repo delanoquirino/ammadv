@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Services = styled.div`
     background-color:#202020;
+    min-height: 100vh;
 `
 
 
@@ -15,21 +16,22 @@ export const Container = styled.div`
 export const Title = styled.div`
   text-align: center;
   color: white;
-  margin-top: 4rem;
+  margin: 2rem 0;
 `
 export const Content = styled.div`
-    display: flex;
-    margin-top: 2rem;
-    gap: 1rem;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     justify-content: center;
-
-    @media (max-width: 900px)
+    justify-items: center;
+    padding: 30px;
+    
+    @media (max-width: 1080px)
     {
         display: flex;
         flex-direction: column;
         align-items: center;
 
-     
       
     }
 `
@@ -37,14 +39,23 @@ export const Content = styled.div`
 export const Card = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 2rem;
-    height: auto;
-    width:100%;
-    padding: 1.5rem 2rem;
+    gap: 15px;
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
     color: white;
     text-align: center;
+
+    @media (max-width: 1080px)
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+     
+      
+    }
     
     &:hover {
         background-color: #424242;

@@ -32,8 +32,14 @@ export const Services = () => {
 
                         </p>
                     </S.Card>
+                    <S.Card>
+                        <div><GiInjustice /></div>
+                        <h3>Gestão Pública</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aspernatur delectus tenetur odit culpa, repellat repudiandae corrupti dignissimos optio totam enim eveniet ex, nesciunt libero magnam? Id facere sapiente laboriosam?</p>
+                    </S.Card>
+
                 </S.Content>
             </S.Container>
-        </S.Services>
+        </S.Services >
     )
 }
