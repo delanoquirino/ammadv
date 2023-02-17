@@ -36,7 +36,7 @@ export const Services = () => {
                 </S.Title>
                 <S.Content>
                     {cards.map(({ icon, name, description }) => (
-                        <S.Card>
+                        <S.Card key={name}>
                             <div>{icon}</div>
                             <h2>{name}</h2>
                             <p> {description}</p>

@@ -44,7 +44,7 @@ export const Team = () => {
         <S.Content>
           {cards.map(({ img, name, id, expert }) => (
 
-            <S.Card>
+            <S.Card key={id}>
               <Image
                 src={img}
                 height={200}
