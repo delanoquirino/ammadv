@@ -59,6 +59,13 @@ export const Card = styled.div`
     height: 500px;
     width: 400px;
     color: var(--text-color);
+
+    img {
+      border-radius: 50%;
+      
+    }
+
+
     @media (max-width: 1080px)
     {
       width: 100%;

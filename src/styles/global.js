@@ -11,7 +11,7 @@ export default createGlobalStyle`
       
     @media(max-width: 1080px){
       html{
-        font-size: 93.75%;
+        font-size: 98.75%;
       }
     }
     @media(max-width: 720px){
@@ -61,7 +61,7 @@ export default createGlobalStyle`
 
    p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.0625rem;
+    font-size: 20px;
    }
    
   
