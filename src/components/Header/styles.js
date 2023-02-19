@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
-  height: 120px;
+  height: 100px;
   background-color: #fff;
   box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 20%);
 

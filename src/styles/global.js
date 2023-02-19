@@ -11,12 +11,13 @@ export default createGlobalStyle`
       
     @media(max-width: 1080px){
       html{
-        font-size: 98.75%;
+        font-size: 95.75%;
       }
     }
+    
     @media(max-width: 720px){
       html{
-        font-size: 77.5%;
+        font-size: 75.5%;
 
         h1
         {
@@ -48,15 +49,15 @@ export default createGlobalStyle`
    }
 
    h1 {
-    font-size: 2.375rem;
+    font-size: 2.25rem;
    }
 
    h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
    }
 
    h3{
-    font-size: 1.625rem;
+    font-size: 24px;
    }
 
    p {
