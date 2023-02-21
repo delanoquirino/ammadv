@@ -17,9 +17,9 @@ Site criado para Amorim, Moura & Martins Sociedade de Advogados.
 
 ### Layout
 
-![Layout](public/ammadvfoto1.png)
-![Layout](public/ammadvfoto3.png)
+![Layout](public/images/ammadvfoto1.png)
+![Layout](public/images/ammadvfoto3.png)
 
 ### Mobile
 
-![Mobile](public/ammadvmobile.png)
+![Mobile](public/images/ammadvmobile.png)
